@@ -7,21 +7,34 @@
 //
 
 #import "ViewController.h"
-
+#import "SelectView.h"
 @interface ViewController ()
-
+{
+    SelectView * _selectView;
+    
+    __weak IBOutlet UIButton *selectBtn;
+    
+}
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    _selectView = [[SelectView alloc]initWithFrame:self.view.frame andBtn:selectBtn];
+    _selectView.alpha = 0;
+    
+    [self.view addSubview:_selectView];
+}
+- (IBAction)clickBtn:(UIButton *)sender {
+    [UIView animateWithDuration:0 animations:^{
+        _selectView.alpha = 1;
+    }];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
 }
 
 @end

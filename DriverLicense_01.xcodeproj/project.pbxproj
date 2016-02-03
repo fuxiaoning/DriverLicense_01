@@ -15,6 +15,7 @@
 		5779BD531C61CD8100B187D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5779BD511C61CD8100B187D6 /* LaunchScreen.storyboard */; };
 		5779BD5E1C61CD8100B187D6 /* DriverLicense_01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5779BD5D1C61CD8100B187D6 /* DriverLicense_01Tests.m */; };
 		5779BD691C61CD8100B187D6 /* DriverLicense_01UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5779BD681C61CD8100B187D6 /* DriverLicense_01UITests.m */; };
+		5779BD781C61D5CB00B187D6 /* SelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5779BD771C61D5CB00B187D6 /* SelectView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		5779BD641C61CD8100B187D6 /* DriverLicense_01UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DriverLicense_01UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5779BD681C61CD8100B187D6 /* DriverLicense_01UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DriverLicense_01UITests.m; sourceTree = "<group>"; };
 		5779BD6A1C61CD8100B187D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5779BD761C61D5CB00B187D6 /* SelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectView.h; sourceTree = "<group>"; };
+		5779BD771C61D5CB00B187D6 /* SelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		5779BD421C61CD8100B187D6 /* DriverLicense_01 */ = {
 			isa = PBXGroup;
 			children = (
+				5779BD761C61D5CB00B187D6 /* SelectView.h */,
+				5779BD771C61D5CB00B187D6 /* SelectView.m */,
 				5779BD461C61CD8100B187D6 /* AppDelegate.h */,
 				5779BD471C61CD8100B187D6 /* AppDelegate.m */,
 				5779BD491C61CD8100B187D6 /* ViewController.h */,
@@ -272,6 +277,7 @@
 			files = (
 				5779BD4B1C61CD8100B187D6 /* ViewController.m in Sources */,
 				5779BD481C61CD8100B187D6 /* AppDelegate.m in Sources */,
+				5779BD781C61D5CB00B187D6 /* SelectView.m in Sources */,
 				5779BD451C61CD8100B187D6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
