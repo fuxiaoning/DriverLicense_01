@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "SelectView.h"
+#import "FirstViewController.h"
 @interface ViewController ()
 {
     SelectView * _selectView;
@@ -30,6 +31,12 @@
     [UIView animateWithDuration:0 animations:^{
         _selectView.alpha = 1;
     }];
+}
+- (IBAction)clickBtn2:(UIButton *)sender {
+    //界面跳转到科目一
+    
+    [self.navigationController pushViewController:[[FirstViewController alloc]init]animated:YES];
+
 }
 
 - (void)didReceiveMemoryWarning {
