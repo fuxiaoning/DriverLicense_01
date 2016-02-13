@@ -8,6 +8,7 @@
 #import "FirstViewController.h"
 #import "FirstTableViewCell.h"
 #import "TestSelectViewController.h"
+#import "MyDataManage.h"
 
 @interface FirstViewController ()<UITableViewDelegate,UITableViewDataSource>
 {
@@ -96,6 +97,7 @@
         case 0://章节练习
         {
         TestSelectViewController *con = [[TestSelectViewController alloc]init];
+            con.dataArray =[MyDataManage getData:chapter];
             con.myTitle = @"章节练习";
             UIBarButtonItem*item = [[UIBarButtonItem alloc]init];
             item.title = @"";

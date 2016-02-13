@@ -9,6 +9,8 @@
 
 #import "TestSelectViewController.h"
 #import "TestSelectTableViewCell.h"
+#include "TestSelectModel.h"
+#import "AnswerViewController.h"
 
 @interface TestSelectViewController ()<UITabBarControllerDelegate,UITableViewDataSource>
 {
@@ -39,7 +41,7 @@
 }
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 9;
+    return _dataArray.count;
 }
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
@@ -57,6 +59,9 @@
         cell.numberLabel.layer.cornerRadius = 8;
         
     }
+    TestSelectModel *model = _dataArray[indexPath.row];
+    cell.numberLabel.text = model.pid;
+    cell.titleLable.text=model.pname;
 
     return cell;
 }
@@ -67,6 +72,9 @@
 
 }
 
-
+-(void)tableView:(UITableView *)tableView didDeselectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    [self.navigationController pushViewController:[[AnswerViewController alloc]init] animated:YES];
+}
 
 @end

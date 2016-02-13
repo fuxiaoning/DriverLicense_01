@@ -168,11 +168,14 @@
 		576D70021C6B79D100595E69 /* 685.png in Resources */ = {isa = PBXBuildFile; fileRef = 576D6F591C6B79D100595E69 /* 685.png */; settings = {ASSET_TAGS = (); }; };
 		576D70031C6B79D100595E69 /* 687.png in Resources */ = {isa = PBXBuildFile; fileRef = 576D6F5A1C6B79D100595E69 /* 687.png */; settings = {ASSET_TAGS = (); }; };
 		576D70041C6B79D100595E69 /* data.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 576D6F5B1C6B79D100595E69 /* data.sqlite */; settings = {ASSET_TAGS = (); }; };
-		576D70051C6B79D100595E69 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 576D6F5E1C6B79D100595E69 /* FMDatabase.m */; settings = {ASSET_TAGS = (); }; };
-		576D70061C6B79D100595E69 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 576D6F601C6B79D100595E69 /* FMDatabaseAdditions.m */; settings = {ASSET_TAGS = (); }; };
-		576D70071C6B79D100595E69 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 576D6F621C6B79D100595E69 /* FMDatabasePool.m */; settings = {ASSET_TAGS = (); }; };
-		576D70081C6B79D100595E69 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 576D6F641C6B79D100595E69 /* FMDatabaseQueue.m */; settings = {ASSET_TAGS = (); }; };
-		576D70091C6B79D100595E69 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 576D6F661C6B79D100595E69 /* FMResultSet.m */; settings = {ASSET_TAGS = (); }; };
+		576D70051C6B79D100595E69 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 576D6F5E1C6B79D100595E69 /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		576D70061C6B79D100595E69 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 576D6F601C6B79D100595E69 /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		576D70071C6B79D100595E69 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 576D6F621C6B79D100595E69 /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		576D70081C6B79D100595E69 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 576D6F641C6B79D100595E69 /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		576D70091C6B79D100595E69 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 576D6F661C6B79D100595E69 /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		576D700B1C6B7CFE00595E69 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 576D700A1C6B7CFE00595E69 /* libsqlite3.tbd */; };
+		576D700E1C6B7EAB00595E69 /* MyDataManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 576D700D1C6B7EAB00595E69 /* MyDataManage.m */; settings = {ASSET_TAGS = (); }; };
+		576D70121C6B832B00595E69 /* TestSelectModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 576D70111C6B832B00595E69 /* TestSelectModel.m */; settings = {ASSET_TAGS = (); }; };
 		5779BD451C61CD8100B187D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5779BD441C61CD8100B187D6 /* main.m */; };
 		5779BD481C61CD8100B187D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5779BD471C61CD8100B187D6 /* AppDelegate.m */; };
 		5779BD4B1C61CD8100B187D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5779BD4A1C61CD8100B187D6 /* ViewController.m */; };
@@ -182,6 +185,12 @@
 		5779BD5E1C61CD8100B187D6 /* DriverLicense_01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5779BD5D1C61CD8100B187D6 /* DriverLicense_01Tests.m */; };
 		5779BD691C61CD8100B187D6 /* DriverLicense_01UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5779BD681C61CD8100B187D6 /* DriverLicense_01UITests.m */; };
 		5779BD781C61D5CB00B187D6 /* SelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5779BD771C61D5CB00B187D6 /* SelectView.m */; settings = {ASSET_TAGS = (); }; };
+		5796B13B1C6C2B1A001BB5AC /* AnswerScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5796B13A1C6C2B1A001BB5AC /* AnswerScrollView.m */; settings = {ASSET_TAGS = (); }; };
+		5796B13F1C6C3442001BB5AC /* AnswerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5796B13D1C6C3442001BB5AC /* AnswerTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		5796B1401C6C3442001BB5AC /* AnswerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5796B13E1C6C3442001BB5AC /* AnswerTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+		5796B1431C6C4FEB001BB5AC /* AnswerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5796B1421C6C4FEB001BB5AC /* AnswerViewController.m */; settings = {ASSET_TAGS = (); }; };
+		5796B1461C6EBFB8001BB5AC /* AnswerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5796B1451C6EBFB8001BB5AC /* AnswerModel.m */; settings = {ASSET_TAGS = (); }; };
+		5796B1491C6ED4A7001BB5AC /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 5796B1481C6ED4A7001BB5AC /* Tools.m */; settings = {ASSET_TAGS = (); }; };
 		57CA7A2C1C61F51F002963BC /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CA7A2B1C61F51F002963BC /* FirstViewController.m */; settings = {ASSET_TAGS = (); }; };
 		57CA7A301C61F5AB002963BC /* FirstTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CA7A2E1C61F5AB002963BC /* FirstTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
 		57CA7A311C61F5AB002963BC /* FirstTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57CA7A2F1C61F5AB002963BC /* FirstTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
@@ -378,6 +387,11 @@
 		576D6F641C6B79D100595E69 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
 		576D6F651C6B79D100595E69 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
 		576D6F661C6B79D100595E69 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		576D700A1C6B7CFE00595E69 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		576D700C1C6B7EAB00595E69 /* MyDataManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDataManage.h; sourceTree = "<group>"; };
+		576D700D1C6B7EAB00595E69 /* MyDataManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDataManage.m; sourceTree = "<group>"; };
+		576D70101C6B832B00595E69 /* TestSelectModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestSelectModel.h; sourceTree = "<group>"; };
+		576D70111C6B832B00595E69 /* TestSelectModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestSelectModel.m; sourceTree = "<group>"; };
 		5779BD401C61CD8100B187D6 /* DriverLicense_01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DriverLicense_01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5779BD441C61CD8100B187D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5779BD461C61CD8100B187D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -396,6 +410,17 @@
 		5779BD6A1C61CD8100B187D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5779BD761C61D5CB00B187D6 /* SelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectView.h; sourceTree = "<group>"; };
 		5779BD771C61D5CB00B187D6 /* SelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectView.m; sourceTree = "<group>"; };
+		5796B1391C6C2B1A001BB5AC /* AnswerScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnswerScrollView.h; sourceTree = "<group>"; };
+		5796B13A1C6C2B1A001BB5AC /* AnswerScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnswerScrollView.m; sourceTree = "<group>"; };
+		5796B13C1C6C3442001BB5AC /* AnswerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnswerTableViewCell.h; sourceTree = "<group>"; };
+		5796B13D1C6C3442001BB5AC /* AnswerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnswerTableViewCell.m; sourceTree = "<group>"; };
+		5796B13E1C6C3442001BB5AC /* AnswerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnswerTableViewCell.xib; sourceTree = "<group>"; };
+		5796B1411C6C4FEB001BB5AC /* AnswerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnswerViewController.h; sourceTree = "<group>"; };
+		5796B1421C6C4FEB001BB5AC /* AnswerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnswerViewController.m; sourceTree = "<group>"; };
+		5796B1441C6EBFB8001BB5AC /* AnswerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnswerModel.h; sourceTree = "<group>"; };
+		5796B1451C6EBFB8001BB5AC /* AnswerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnswerModel.m; sourceTree = "<group>"; };
+		5796B1471C6ED4A7001BB5AC /* Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tools.h; sourceTree = "<group>"; };
+		5796B1481C6ED4A7001BB5AC /* Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tools.m; sourceTree = "<group>"; };
 		57CA7A2A1C61F51F002963BC /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		57CA7A2B1C61F51F002963BC /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		57CA7A2D1C61F5AB002963BC /* FirstTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstTableViewCell.h; sourceTree = "<group>"; };
@@ -408,6 +433,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				576D700B1C6B7CFE00595E69 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +460,8 @@
 				576D6EBD1C6B79D100595E69 /* 320_480 */,
 				576D6F5B1C6B79D100595E69 /* data.sqlite */,
 				576D6F5C1C6B79D100595E69 /* fmdb */,
+				576D700C1C6B7EAB00595E69 /* MyDataManage.h */,
+				576D700D1C6B7EAB00595E69 /* MyDataManage.m */,
 			);
 			name = libs;
 			sourceTree = "<group>";
@@ -619,9 +647,21 @@
 			path = fmdb;
 			sourceTree = "<group>";
 		};
+		576D700F1C6B831000595E69 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				576D70101C6B832B00595E69 /* TestSelectModel.h */,
+				576D70111C6B832B00595E69 /* TestSelectModel.m */,
+				5796B1441C6EBFB8001BB5AC /* AnswerModel.h */,
+				5796B1451C6EBFB8001BB5AC /* AnswerModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		5779BD371C61CD8100B187D6 = {
 			isa = PBXGroup;
 			children = (
+				576D700A1C6B7CFE00595E69 /* libsqlite3.tbd */,
 				576D6EB01C6B76FB00595E69 /* libs */,
 				5779BD421C61CD8100B187D6 /* DriverLicense_01 */,
 				5779BD5C1C61CD8100B187D6 /* DriverLicense_01Tests */,
@@ -643,9 +683,12 @@
 		5779BD421C61CD8100B187D6 /* DriverLicense_01 */ = {
 			isa = PBXGroup;
 			children = (
+				576D700F1C6B831000595E69 /* Model */,
 				57CA7A281C61F4A4002963BC /* Controller */,
 				57CA7A291C61F4CF002963BC /* View */,
 				5779BD461C61CD8100B187D6 /* AppDelegate.h */,
+				5796B1471C6ED4A7001BB5AC /* Tools.h */,
+				5796B1481C6ED4A7001BB5AC /* Tools.m */,
 				5779BD471C61CD8100B187D6 /* AppDelegate.m */,
 				5779BD4C1C61CD8100B187D6 /* Main.storyboard */,
 				5779BD4F1C61CD8100B187D6 /* Assets.xcassets */,
@@ -691,6 +734,8 @@
 				57CA7A2B1C61F51F002963BC /* FirstViewController.m */,
 				576D6EA81C6B637C00595E69 /* TestSelectViewController.h */,
 				576D6EA91C6B637C00595E69 /* TestSelectViewController.m */,
+				5796B1411C6C4FEB001BB5AC /* AnswerViewController.h */,
+				5796B1421C6C4FEB001BB5AC /* AnswerViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -706,6 +751,11 @@
 				576D6EAB1C6B682000595E69 /* TestSelectTableViewCell.h */,
 				576D6EAC1C6B682000595E69 /* TestSelectTableViewCell.m */,
 				576D6EAD1C6B682000595E69 /* TestSelectTableViewCell.xib */,
+				5796B1391C6C2B1A001BB5AC /* AnswerScrollView.h */,
+				5796B13A1C6C2B1A001BB5AC /* AnswerScrollView.m */,
+				5796B13C1C6C3442001BB5AC /* AnswerTableViewCell.h */,
+				5796B13D1C6C3442001BB5AC /* AnswerTableViewCell.m */,
+				5796B13E1C6C3442001BB5AC /* AnswerTableViewCell.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -932,6 +982,7 @@
 				576D6FA51C6B79D100595E69 /* 265.png in Resources */,
 				576D6F7F1C6B79D100595E69 /* 227.png in Resources */,
 				576D6FD21C6B79D100595E69 /* 310.png in Resources */,
+				5796B1401C6C3442001BB5AC /* AnswerTableViewCell.xib in Resources */,
 				576D6F811C6B79D100595E69 /* 229.png in Resources */,
 				576D6F671C6B79D100595E69 /* 203.png in Resources */,
 				576D6FD51C6B79D100595E69 /* 313.png in Resources */,
@@ -1000,19 +1051,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				576D700E1C6B7EAB00595E69 /* MyDataManage.m in Sources */,
 				5779BD4B1C61CD8100B187D6 /* ViewController.m in Sources */,
+				5796B13F1C6C3442001BB5AC /* AnswerTableViewCell.m in Sources */,
 				5779BD481C61CD8100B187D6 /* AppDelegate.m in Sources */,
 				57CA7A301C61F5AB002963BC /* FirstTableViewCell.m in Sources */,
 				576D70051C6B79D100595E69 /* FMDatabase.m in Sources */,
 				576D6EAA1C6B637C00595E69 /* TestSelectViewController.m in Sources */,
 				576D70081C6B79D100595E69 /* FMDatabaseQueue.m in Sources */,
+				5796B13B1C6C2B1A001BB5AC /* AnswerScrollView.m in Sources */,
 				576D70091C6B79D100595E69 /* FMResultSet.m in Sources */,
 				576D70071C6B79D100595E69 /* FMDatabasePool.m in Sources */,
+				5796B1491C6ED4A7001BB5AC /* Tools.m in Sources */,
 				57CA7A2C1C61F51F002963BC /* FirstViewController.m in Sources */,
+				5796B1461C6EBFB8001BB5AC /* AnswerModel.m in Sources */,
 				5779BD781C61D5CB00B187D6 /* SelectView.m in Sources */,
 				5779BD451C61CD8100B187D6 /* main.m in Sources */,
 				576D6EAE1C6B682000595E69 /* TestSelectTableViewCell.m in Sources */,
 				576D70061C6B79D100595E69 /* FMDatabaseAdditions.m in Sources */,
+				5796B1431C6C4FEB001BB5AC /* AnswerViewController.m in Sources */,
+				576D70121C6B832B00595E69 /* TestSelectModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
